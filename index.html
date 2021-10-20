@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="css,styling web form">
+    <meta name="keywords" content="form styling for beautiful form">
+    <title>Form practise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form method="POST" action="/sign-up">
+            <h2>Contact Us</h2>
+            <label for="Your name">Your name</label>
+            <input type="text" class="form-field" name="Your name" placeholder="Your name">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-field" name="Your email" placeholder="Your Email">
+            <label for="message">
+                <span class="required">Message</span> 
+                <textarea spellcheck="true"  id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+              </label>  
+              <button type="submit">Submit</button>
+
+        </form>
+        
+    </main>
+    
+</body>
+</html>
